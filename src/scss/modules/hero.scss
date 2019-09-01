@@ -1,0 +1,39 @@
+.hero {
+    max-width: 1184px;
+    padding: 112px 0 200px;
+    margin: 0 auto;
+    &__description {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        color: $grey;
+        max-width: 780px;
+        margin-bottom: 3.75rem;
+    }
+    &__image {
+        width: 120px;
+        height: 120px;
+    }
+    &__link {
+        color: $blue;
+        font-weight: 400;
+    }
+    &__mail {
+        color: $blue;
+        font-weight: 400;
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding-bottom: 8px;
+        border-bottom: 2px solid $blue;
+    }
+    &__tittle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        max-width: 780px;
+        margin: 2rem 0 1rem;
+    }
+    
+} 
