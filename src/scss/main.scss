@@ -2,17 +2,7 @@
 @import "_variables";
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext");
 @import "modules/hero.scss";
-
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+@import "modules/skills.scss";
 
 body {
   color: $big-stone;
@@ -22,3 +12,17 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: antialiased;
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
