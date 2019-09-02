@@ -3,28 +3,67 @@
 background: #fff;
 box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
 border-radius: 8px;
+overflow: hidden;
 
 &__container {
     padding: 3rem;
-
 }
-
 &__description {
+    font-style: normal;
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 2rem;
+    margin: 0;
 }
-&__footer {}
-&__link {}
+&__footer {
+    background: $light-gray;
+    padding: 1rem 3rem;
+    text-align: right;
+    
+}
+&__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: $blue;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+        & + & {
+            margin-left: 50px;
+            position: relative;
+        &::after {
+           content: ""; 
+           height: 32px;
+           width: 2px;
+           background: #CBD2D9;
+           display: block;
+           position: absolute; 
+           left: -26px;
+           pointer-events: none;
+        }
+    }
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        background: url('../assets/img/Demo.svg') center center no-repeat;
+    }
+    &--code::before {
+        background: url('../assets/img/github-blue.svg') center center no-repeat;
+    }
+}
 &__logo {}
 &__tittle {
     font-style: normal;
     font-weight: 700;
     font-size: 1.25;
     line-height: 2.25;
-    margin: 0;
+    margin: 1rem 0 .5rem;
 }
-
 }
 
 
