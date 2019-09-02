@@ -29,8 +29,10 @@
   <main>
     <section class="hero">
       <img src="assets/img/avatar.png" class="hero__image" alt="Karolina - zdjecie.">
-      <h1 class="hero__tittle">Hello! 👋 My name is Karolina. I am aspiring Frontend developer and in love with Western Norway.</h1>
-      <p class="hero__description">From Accounting Team Leader to Frontend developer - an interesting journey. Please look at
+      <h1 class="hero__tittle">Hello! 👋 My name is Karolina. I am aspiring Frontend developer and in love with Western
+        Norway.</h1>
+      <p class="hero__description">From Accounting Team Leader to Frontend developer - an interesting journey. Please
+        look at
         <a class="hero__link" href="#my-skills">my skills</a> below. Don’t forget to take a gander at <a
           class="hero__link" href="#my-projects">my projects</a>. Currently I’m looking for a new challenges so if you
         have one -
@@ -53,7 +55,7 @@
           <li class="skills-list__item">Figma</li>
         </ul>
       </section>
-      <section class="skills-list">
+      <section class="skills-list skills-list--violet">
         <h3 class="skills-list__tittle">Know something about</h3>
         <ul class="skills-list__list">
           <li class="skills-list__item">JavaScript ES6 + features</li>
@@ -65,7 +67,7 @@
           <li class="skills-list__item">Accesibility</li>
         </ul>
       </section>
-      <section class="skills-list">
+      <section class="skills-list skills-list--blue">
         <h3 class="skills-list__tittle">Want to learn</h3>
         <ul class="skills-list__list">
           <li class="skills-list__item">React JS</li>
@@ -79,66 +81,84 @@
         </ul>
       </section>
     </section>
-    <section id="my-projects" class="projectss">
+    <section id="my-projects" class="projects">
       <h2 class="projects__tittle">Recent projects</h2>
-      <p class="projects__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, illum aliquam quo
-        perspiciatis est soluta enim placeat expedita, sapiente quam magnam minima veniam? </p>
-      <ul class="projects-list">
-        <li class="project"><img src="assets/img/github.svg" alt="github logo." class="project__logo">
-          <h3 class="project__tittle">HydrApp</h3>
-          <p class="project__description">Aaaaaaaaaaaaaa</p>
-          <div class="project__footer">
-            <a href="#" tittle="Demo: HydrApp." class="project__link">Demo</a>
-            <a href="#" title="Source code: HydrApp." class="project__link">GitHub</a>
-          </div>
-        </li>
-        <li class="project"><img src="assets/img/github.svg" alt="github logo." class="project__logo">
-          <h3 class="project__tittle">WTF</h3>
-          <p class="project__description">bbbbbbbbbbbbbbbbbbbbb</p>
-          <div class="project__footer">
-            <a href="#" tittle="Demo: WTF." class="project__link">Demo</a>
-            <a href="#" title="Source code: WTF." class="project__link">GitHub</a>
-          </div>
-        </li>        
-        <li class="project"><img src="assets/img/github.svg" alt="github logo." class="project__logo">
-          <h3 class="project__tittle">CV</h3>
-          <p class="project__description">Cccccccccccccccccccc</p>
-          <div class="project__footer">
-            <a href="#" tittle="Demo: CV." class="project__link">Demo</a>
-            <a href="#" title="Source code: CV." class="project__link">GitHub</a>
-          </div>
-        </li>
-        <li class="project"><img src="assets/img/github.svg" alt="github logo." class="project__logo">
-          <h3 class="project__tittle">Card</h3>
-          <p class="project__description">Dddddddddddddddddddddddddddd</p>
-          <div class="project__footer">
-            <a href="#" tittle="Demo: Card." class="project__link">Demo</a>
-            <a href="#" title="Source code: Card." class="project__link">GitHub</a>
-          </div>
-        </li>
+      <div class="container">
+        <p class="projects__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, illum aliquam quo
+          perspiciatis est soluta enim placeat expedita, sapiente quam magnam minima veniam? </p>
+        <ul class="projects-list">
+          <li class="project">
+            <div class="project__container">
+              <img src="assets/img/github.svg" alt="github logo." class="project__logo">
+              <h3 class="project__tittle">HydrApp</h3>
+              <p class="project__description">Aaaaaaaaaaaaaa</p>
+            </div>
+            <div class="project__footer">
+              <a href="#" tittle="Demo: HydrApp." class="project__link project__link--demo">Demo</a>
+              <a href="#" title="Source code: HydrApp." class="project__link project__link--code">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__container">
+              <img src="assets/img/github.svg" alt="github logo." class="project__logo">
+              <h3 class="project__tittle">WTF</h3>
+              <p class="project__description">bbbbbbbbbbbbbbbbbbbbb</p>
+            </div>
+            <div class="project__footer">
+              <a href="#" tittle="Demo: WTF." class="project__link project__link--demo">Demo</a>
+              <a href="#" title="Source code: WTF." class="project__link project__link--code">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+              <div class="project__container">
+            <img src="assets/img/github.svg" alt="github logo." class="project__logo">
+            
+              <h3 class="project__tittle">CV</h3>
+              <p class="project__description">Cccccccccccccccccccc</p>
+            </div>
+            <div class="project__footer">
+              <a href="#" tittle="Demo: CV." class="project__link project__link--demo">Demo</a>
+              <a href="#" title="Source code: CV." class="project__link project__link--code">GitHub</a>
+            </div>
+          </li>
+          <li class="project">
+              <div class="project__container">
+            <img src="assets/img/github.svg" alt="github logo." class="project__logo">
+            
+
+            <h3 class="project__tittle">Card</h3>
+            <p class="project__description">Dddddddddddddddddddddddddddd</p>
+      </div>
+        <div class="project__footer">
+        <a href="#" tittle="Demo: Card." class="project__link project__link--demo">Demo</a>
+        <a href="#" title="Source code: Card." class="project__link project__link--code">GitHub</a>
+      </div>
+      </li>
+
       </ul>
+      </div>
     </section>
 
-  <footer class="contact" id="contact">
-<h2 class="contact__tittle">Contact me</h2>
-<p class="contat__description">I am la la lalalalalallalalallalallaa</p>
-<ul class="social">
-  <li class="social__item">
-    <a href="#" class="social__link">
-    <img src="assets/img/Facebook.svg" alt="Facebook logo." class="social__icon"></a>
-  </li>
-  <li class="social__item">
-      <a href="#" class="social__link">
-      <img src="assets/img/github.svg" alt="GitHub logo." class="social__icon"></a>
-    </li>
-    <li class="social__item">
-        <a href="#" class="social__link">
-        <img src="assets/img/linkedin.svg" alt="Linkedin logo." class="social__icon"></a>
-      </li>
-</ul>
-<a class="contact__mail" href="mailto:karolina.korsan@gmail.com">karolina.korsan@gmail.com</a>
-  </footer>
-</main>
+    <footer class="contact" id="contact">
+      <h2 class="contact__tittle">Contact me</h2>
+      <p class="contat__description">I am la la lalalalalallalalallalallaa</p>
+      <ul class="social">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="assets/img/Facebook.svg" alt="Facebook logo." class="social__icon"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="assets/img/github.svg" alt="GitHub logo." class="social__icon"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="assets/img/linkedin.svg" alt="Linkedin logo." class="social__icon"></a>
+        </li>
+      </ul>
+      <a class="contact__mail" href="mailto:karolina.korsan@gmail.com">karolina.korsan@gmail.com</a>
+    </footer>
+  </main>
   <script src="js/main.js"></script>
 </body>
 
