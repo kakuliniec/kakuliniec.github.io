@@ -1,9 +1,11 @@
 @import "_normalize";
 @import "_variables";
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext");
+@import "modules/contact.scss";
 @import "modules/hero.scss";
 @import "modules/projects.scss";
 @import "modules/skills.scss";
+
 
 body {
   color: $big-stone;
