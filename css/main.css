@@ -308,6 +308,58 @@ template {
 [hidden] {
   display: none; }
 
+.contact {
+  background: #171F3F;
+  color: #fff;
+  padding-bottom: calc(8rem - 16px); }
+  .contact__description {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    max-width: 580px;
+    margin: 0 0 1.5rem; }
+  .contact__mail {
+    color: #0593FB;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0593FB;
+    display: inline-block;
+    margin: 3rem 0 0 0; }
+  .contact__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    max-width: 1184px;
+    margin: 0 auto 1rem;
+    padding: 8rem 0 0; }
+    .contact__tittle::before {
+      content: '';
+      width: 80px;
+      height: 4px;
+      display: block;
+      background: #0593FB;
+      border-radius: 8px;
+      margin-bottom: 1.5rem; }
+
+.social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social__icon {
+    width: 32px;
+    height: 32px; }
+  .social__item + .social__item {
+    margin-left: 1.5rem; }
+  .social__item__link {
+    text-decoration: none;
+    color: #0593FB;
+    font-weight: 400; }
+
 .hero {
   max-width: 1184px;
   padding: 112px 0 184px;
@@ -410,7 +462,7 @@ template {
     line-height: 2.25rem;
     color: #52606D;
     max-width: 580px;
-    margin: 0; }
+    margin: 0 0 4rem; }
   .projects__tittle {
     font-weight: 700;
     font-size: 2.25rem;
