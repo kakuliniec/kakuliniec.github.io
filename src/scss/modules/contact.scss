@@ -2,6 +2,7 @@
 background: $big-stone;
 color: #fff;
 padding-bottom: calc(8rem - 16px);
+
 &__description {
     font-weight: 300;
     font-size: 1.25rem;
@@ -23,9 +24,9 @@ padding-bottom: calc(8rem - 16px);
     font-style: normal;
     font-weight: 700;
     font-size: 2.25rem;
-    max-width: 1184px;
+    max-width: 1216px;
     margin: 0 auto 1rem;
-    padding: 8rem 0 0;
+    padding: 8rem 16px 0;
     &::before {
         content: '';
         width: 80px;

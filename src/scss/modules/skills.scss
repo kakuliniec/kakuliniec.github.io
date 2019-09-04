@@ -1,5 +1,6 @@
 .skills {
-max-width: 1184px;
+max-width: 1216px;
+padding: 0 16px;
 margin: 0 auto 8rem;
 &__tittle {
     font-weight: 700;
@@ -57,6 +58,7 @@ padding: 8rem 0 0;
     background: $green;
     border-radius: 8px;
     margin-bottom: 1.5rem;
+
     .skills-list--violet & {
         background: $violet;
     }
