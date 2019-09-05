@@ -353,6 +353,8 @@ template {
   .social__icon {
     width: 32px;
     height: 32px; }
+    .social__icon--linkedin {
+      color: #fff; }
   .social__item + .social__item {
     margin-left: 1.5rem; }
   .social__item__link {
