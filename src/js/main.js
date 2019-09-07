@@ -28,7 +28,7 @@ fetch('https://api.github.com/users/kakuliniec/repos?sort=updated&direction=desc
                 homepage ? `<a class="project__link project__link--demo" href="${homepage}" target="_blank" rel="nofollow noreferrer" tittle="Demo: ${name}.">Demo</a>` : ``
               }
                 
-                <a class="project__link project__link--code href="${html_url}" target="_blank" rel="nofollow noreferrer" title="Source code: ${name}.">GitHub</a>
+                <a class="project__link project__link--code" href="${html_url}" target="_blank" rel="nofollow noreferrer" title="Source code: ${name}.">GitHub</a>
             </div>
           </li>
      
