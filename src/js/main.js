@@ -17,20 +17,18 @@ fetch('https://api.github.com/users/kakuliniec/repos?sort=updated&direction=desc
       
                <li class="project">
               <div class="project__container">
-                <img src="assets/img/github.svg" alt="github logo." class="project__logo">
+                <img class="project__logo" src="assets/img/github.svg" alt="github logo.">
                 <h3 class="project__tittle">${name}</h3>
                 ${
                   description ? `<p class="project__description">${description}</p>` : `No description ☹`
-<                  
                 }
-                
-              </div>
-              <div class="project__footer">
+             </div>
+            <div class="project__footer">
               ${
-                homepage ? `<a class="project__link href="${homepage}" target="_blank" rel="nofollow noreferrer"  tittle="Demo: ${name}."  project__link--demo">Demo</a>` : ``
+                homepage ? `<a class="project__link project__link--demo" href="${homepage}" target="_blank" rel="nofollow noreferrer" tittle="Demo: ${name}.">Demo</a>` : ``
               }
                 
-                <a class="project__link project__link--code href="${html_url}" target="_blank" rel="nofollow noreferrer" title="Source code: ${name}." ">GitHub</a>
+                <a class="project__link project__link--code href="${html_url}" target="_blank" rel="nofollow noreferrer" title="Source code: ${name}.">GitHub</a>
             </div>
           </li>
      
