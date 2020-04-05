@@ -11,3 +11,5 @@
 - CSS Grid
 - Fetch Api
 ...
+
+My personal [website / CV](https://kakuliniec.github.io)
