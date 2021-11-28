@@ -9,7 +9,7 @@
 - SASS
 - Visial Studio Code
 - CSS Grid
-- Fetch Api
+- JS
 ...
 
 My personal [website / CV](https://kakuliniec.github.io)
